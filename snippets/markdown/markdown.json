@@ -1,13 +1,7 @@
 {
     "banner": {
         "prefix": "banner",
-        "body": [
-            "test \"${0:message}\"
-            "test \"${1:message}\"",
-            "test \"${2:message}\"",
-            "test \"${3:message}\"",
-            "test \"${4:message}\"",
-            "],
-        "description": "this is a test message."
+        "body": ["banner ${0}"],
+        "description": "Insert a ascii banner"
     }
 }
