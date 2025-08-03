@@ -1,10 +1,10 @@
-# Friendly Snippets
+> !INFO
+> this repo is cloned from [rafamadriz/friendly-snippets](https://github.com/rafamadriz/friendly-snippets)
+
+# Personal Snippets
 
 Snippets collection for a set of different programming languages.
-
-The only goal is to have one community driven repository for all kinds of
-snippets in all programming languages, this way you can have it all in one
-place.
+Created as an extension of the original friendly-snippets repository
 
 ## Install
 
@@ -13,7 +13,7 @@ Use your plugin manager of choice, e.g.
 ### With Lazy.nvim
 
 ```lua
-{ "rafamadriz/friendly-snippets" }
+{ "daanblom/snippets" }
 ```
 
 > [!WARNING]
@@ -26,26 +26,26 @@ Use your plugin manager of choice, e.g.
 > ```lua
 > {
 >   "L3MON4D3/LuaSnip",
->   dependencies = { "rafamadriz/friendly-snippets" },
+>   dependencies = { "daanblom/snippets" },
 > }
 > ```
 
 ### With Packer
 
 ```lua
-use "rafamadriz/friendly-snippets"
+use "daanblom/snippets"
 ```
 
 ### With vim-plug
 
 ```vim
-Plug "rafamadriz/friendly-snippets"
+Plug "daanblom/snippets"
 ```
 
 ### With coc.nvim
 
 ```vim
-:CocInstall https://github.com/rafamadriz/friendly-snippets@main
+:CocInstall https://github.com/daanblom/snippets@main
 ```
 
 ## Usage
@@ -64,7 +64,7 @@ loading vscode snippets. Like for example:
 
 There's extra snippets included in this repo but they are not added by default,
 since it would be irrelevant for people not using those frameworks. See
-[`snippets/frameworks`](https://github.com/rafamadriz/friendly-snippets/tree/main/snippets/frameworks)
+[`snippets/frameworks`](https://github.com/daanblom/snippets/tree/main/snippets/frameworks)
 
 For example: if you want to add rails snippets to ruby.
 
@@ -107,12 +107,12 @@ require("luasnip.loaders.from_vscode").load {
 ## TODO
 
 - Add all included snippets to the
-  [Wiki](https://github.com/rafamadriz/friendly-snippets/wiki).
+  [Wiki](https://github.com/daanblom/snippets/wiki).
 
 ## Thanks to all contributors
 
-<a href="https://github.com/rafamadriz/friendly-snippets/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=rafamadriz/friendly-snippets" />
+<a href="https://github.com/daanblom/snippets/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=daanblom/snippets" />
 </a>
 
 ## Credits
